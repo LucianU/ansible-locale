@@ -2,4 +2,4 @@
 - name: run dpkg-reconfigure
   command:
     dpkg-reconfigure --frontend noninteractive locales
-  sudo: yes
+  become: yes
